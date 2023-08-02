@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Twenty Four | Medical Healthcare Website</title>
+
+    <!-- * CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- * Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- * Favicon -->
+    <link rel="shortcut icon" href="images/fav-icon.png">
+
+    <!-- * Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- * Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- todo HERO SECTION -->
+    <section id="hero">
+
+        <!-- *NAV -->
+        <nav class="navigation">
+            <!-- * MENU-BTN -->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+
+            <!-- * LOGO -->
+            <a href="#" class="logo"><span>We</span>Care</a>
+
+            <!-- * MENU -->
+            <ul class="menu">
+                <li><a href="#team">Find A Doctor</a></li>
+                <li><a href="#our-services">Our Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+
+            <!-- *APPOINTMENT BTN -->
+            <a href="#" class="nav-appointment-btn">Appointment</a>
+        </nav>
+        <!-- *NAV -->
+
+        <!-- * CONTENT -->
+        <div class="hero-content">
+            <!-- ! TEXT -->
+            <div class="hero-text">
+                <h1>Feel Better About Finding HealthCare</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsum facere commodi facilis laudantium
+                    aut porro atque ratione quaerat quisquam, architecto minima. Non rem nobis, itaque possimus ut et
+                    quod?</p>
+                <!-- * BTNS -->
+                <div class="hero-text-btns">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Find Doctor
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-check"></i>
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+
+            <!-- ! IMG -->
+            <div class="hero-img">
+                <img src="images/main-bg.png" alt="">
+            </div>
+        </div>
+        <!-- * CONTENT -->
+    </section>
+    <!-- todo HERO SECTION -->
+
+    <!-- * SEARCH -->
+    <div class="appointment-search-container">
+        <h3>Find Best HealthCare</h3>
+
+        <!-- ! Search -->
+        <div class="appointment-search">
+            <!-- ! Search-box -->
+            <div class="appointment-search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Doctor Here">
+            </div>
+            <div class="appointment-search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Set Your Location">
+            </div>
+
+            <!-- ! Btn -->
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+    </div>
+    <!-- * SEARCH -->
+
+    <!-- * WHAT WE PROVIDE -->
+    <section class="what-we-provide">
+        <!-- ! BOX1 -->
+        <div class="w-info-box w-info-box1">
+            <!-- ? Icon -->
+            <div class="w-info-icon">
+                <i class="fa-solid fa-capsules"></i>
+            </div>
+
+            <!-- ? Text -->
+            <div class="w-info-text">
+                <strong>Specialised Service</strong>
+                <p>Lorem ipsum, dolor sit amet</p>
+            </div>
+        </div>
+
+        <!-- ! BOX2 -->
+        <div class="w-info-box w-info-box2">
+            <!-- ? Icon -->
+            <div class="w-info-icon">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+            <!-- ? Text -->
+            <div class="w-info-text">
+                <strong>24/7 Advance Care</strong>
+                <p>Lorem ipsum, dolor sit amet</p>
+            </div>
+        </div>
+
+        <!-- ! BOX3 -->
+        <div class="w-info-box w-info-box3">
+            <!-- ? Icon -->
+            <div class="w-info-icon">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+            </div>
+
+            <!-- ? Text -->
+            <div class="w-info-text">
+                <strong>Get Result Online</strong>
+                <p>Lorem ipsum, dolor sit amet</p>
+            </div>
+        </div>
+    </section>
+    <!-- * WHAT WE PROVIDE -->
+
+    <!-- * OUR STORY -->
+    <section id="our-story">
+        <!-- ? IMG -->
+        <div class="our-story-img">
+            <img src="images/story_img.jpg" alt="">
+
+            <!-- ? Video Play btn -->
+            <a href="#" class="story-play-btn">
+                <i class="fa-solid fa-play"></i>
+                Play Video
+            </a>
+        </div>
+
+        <!-- ? TEXT -->
+        <div class="our-story-text">
+            <h2>Short Story About Our Clinic.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic commodi expedita sed. Vitae adipisci
+                exercitationem iste deserunt perferendis cum in, aut, fugit, temporibus itaque distinctio aspernatur
+                asperiores eius ratione deleniti.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic commodi expedita sed. Vitae adipisci
+                exercitationem iste deserunt perferendis cum in, aut, fugit, temporibus itaque distinctio aspernatur
+                asperiores eius ratione deleniti.</p>
+
+            <!-- ? Happy Clients Number -->
+            <div class="story-number-container">
+                <!-- Box 1 -->
+                <div class="story-number-box s-n-box1">
+                    <strong>1000+</strong>
+                    <span>Happy Patients</span>
+                </div>
+                <!-- Box 2 -->
+                <div class="story-number-box s-n-box2">
+                    <strong>215+</strong>
+                    <span>Expert Doctors</span>
+                </div>
+                <!-- Box 3 -->
+                <div class="story-number-box s-n-box3">
+                    <strong>1000+</strong>
+                    <span>Hospital Rooms</span>
+                </div>
+                <!-- Box 4 -->
+                <div class="story-number-box s-n-box4">
+                    <strong>106+</strong>
+                    <span>Award Winning</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- * OUR STORY -->
+
+    <!-- * OUR SERVICES -->
+    <section id="our-services">
+
+        <!-- * Heading -->
+        <div class="services-heading">
+            <!-- ? Text -->
+            <div class="services-heading-text">
+                <strong>Our Services</strong>
+                <h2>High Qualitty Services For You</h2>
+            </div>
+
+            <!-- ? btns -->
+            <div class="services-slide-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <!-- * Box Container -->
+        <div class="services-box-container">
+            <!-- ! Swiper -->
+            <div class="swiper mySwipeservices">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <!-- ! Box -->
+                        <div class="service-box s-box1">
+                            <!-- ? Icon -->
+                            <i class="fa-solid fa-tooth"></i>
+                            <!-- ? Title -->
+                            <strong>Dental Care</strong>
+                            <!-- ? Details -->
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <!-- ? Btn -->
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <!-- ! Box -->
+                        <div class="service-box s-box2">
+                            <!-- ? Icon -->
+                            <i class="fa-solid fa-tooth"></i>
+                            <!-- ? Title -->
+                            <strong>Dental Care</strong>
+                            <!-- ? Details -->
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <!-- ? Btn -->
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <!-- ! Box -->
+                        <div class="service-box s-box3">
+                            <!-- ? Icon -->
+                            <i class="fa-solid fa-tooth"></i>
+                            <!-- ? Title -->
+                            <strong>Dental Care</strong>
+                            <!-- ? Details -->
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <!-- ? Btn -->
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <!-- ! Box -->
+                        <div class="service-box s-box4">
+                            <!-- ? Icon -->
+                            <i class="fa-solid fa-tooth"></i>
+                            <!-- ? Title -->
+                            <strong>Dental Care</strong>
+                            <!-- ? Details -->
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <!-- ? Btn -->
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- * Btn -->
+        <span class="service-help-btn">Contact us For Need Any Help And Services <a href="#">Let's Get
+                Started</a></span>
+    </section>
+    <!-- * OUR SERVICES -->
+
+    <!-- * WHY CHOOSE US -->
+    <section id="why-choose-us">
+        <!-- ! Left -->
+        <div class="why-choose-us-left">
+            <h3>Why Choose Us?</h3>
+
+            <!-- ? Container -->
+            <div class="why-choose-box-container">
+
+                <!-- * BOX 1 -->
+                <div class="why-choose-box">
+                    <!-- ? icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- ? Text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <!-- * BOX 2 -->
+                <div class="why-choose-box">
+                    <!-- ? icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- ? Text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <!-- * BOX 3 -->
+                <div class="why-choose-box">
+                    <!-- ? icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- ? Text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <!-- * BOX 4 -->
+                <div class="why-choose-box">
+                    <!-- ? icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- ? Text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ? End Container -->
+
+            <!-- ? BTN -->
+            <a href="#" class="why-choose-us-btn">Make Appointment</a>
+        </div>
+
+        <!-- ! Right -->
+        <div class="why-choose-us-right">
+            <h3>
+                Emergency?<br>
+                Contact Us
+            </h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dicta, ea numquam aut quisquam
+                laborum vitae, tenetur illo necessitatibus ipsa minima nam repellendus deserunt accusamus</p>
+
+            <!-- ? Container -->
+            <div class="w-right-contact-container">
+                <!-- Box -->
+                <div class="w-right-contact-box">
+                    <!-- * Icon -->
+                    <i class="fa-solid fa-phone"></i>
+                    <!-- * Text -->
+                    <div class="w-right-contact-box-text">
+                        <span>Call Us Now</span>
+                        <strong>+62 8956 0442 8802</strong>
+                    </div>
+                </div>
+                <!-- Box -->
+                <div class="w-right-contact-box">
+                    <!-- * Icon -->
+                    <i class="fa-solid fa-envelope"></i>
+                    <!-- * Text -->
+                    <div class="w-right-contact-box-text">
+                        <span>Mail Us</span>
+                        <strong>habbazahubbal#gmail.com</strong>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ? End Container -->
+        </div>
+    </section>
+    <!-- * WHY CHOOSE US -->
+
+    <!-- * TEAM -->
+    <section id="team">
+        <!-- ! HEADING -->
+        <div class="team-heading">
+            <h3>Meet Our Specialist</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- ! CONTAINER -->
+        <div class="team-box-container">
+
+            <!-- * SWIPER -->
+            <div class="swiper mySwiperteam">
+                <div class="swiper-wrapper">
+
+                    <!-- ? Slide 1 -->
+                    <div class="swiper-slide">
+                        <!-- * BOX -->
+                        <div class="team-box">
+                            <!-- ? IMG -->
+                            <div class="team-img">
+                                <img src="images/d1.png" alt="">
+                            </div>
+                            <!-- ? TEXT -->
+                            <div class="team-text">
+                                <strong>Dr. Paradox Alex</strong>
+                                <span>Skin Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ? Slide 2 -->
+                    <div class="swiper-slide">
+                        <!-- * BOX -->
+                        <div class="team-box">
+                            <!-- ? IMG -->
+                            <div class="team-img">
+                                <img src="images/d2.png" alt="">
+                            </div>
+                            <!-- ? TEXT -->
+                            <div class="team-text">
+                                <strong>Dr. Paradox Alex</strong>
+                                <span>Skin Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ? Slide 3 -->
+                    <div class="swiper-slide">
+                        <!-- * BOX -->
+                        <div class="team-box">
+                            <!-- ? IMG -->
+                            <div class="team-img">
+                                <img src="images/d3.png" alt="">
+                            </div>
+                            <!-- ? TEXT -->
+                            <div class="team-text">
+                                <strong>Dr. Paradox Alex</strong>
+                                <span>Skin Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ? Slide 4 -->
+                    <div class="swiper-slide">
+                        <!-- * BOX -->
+                        <div class="team-box">
+                            <!-- ? IMG -->
+                            <div class="team-img">
+                                <img src="images/d4.png" alt="">
+                            </div>
+                            <!-- ? TEXT -->
+                            <div class="team-text">
+                                <strong>Dr. Paradox Alex</strong>
+                                <span>Skin Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ? Slide 5 -->
+                    <div class="swiper-slide">
+                        <!-- * BOX -->
+                        <div class="team-box">
+                            <!-- ? IMG -->
+                            <div class="team-img">
+                                <img src="images/d5.png" alt="">
+                            </div>
+                            <!-- ? TEXT -->
+                            <div class="team-text">
+                                <strong>Dr. Paradox Alex</strong>
+                                <span>Skin Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- * TEAM -->
+
+    <!-- * TESTIMONIALS -->
+    <section id="testimonials">
+
+        <!-- ! HEADING -->
+        <div class="testimonials-heading">
+            <h3>Our Patients FeedBack About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere placeat cupiditate incidunt sint,
+                officiis</p>
+        </div>
+
+        <!-- ! TESTIMONIALS-CONTENT -->
+        <div class="testimonials-content">
+            <!-- ? IMG -->
+            <div class="testimonials-img">
+                <img src="images/testimonials-img.png" alt="">
+            </div>
+
+            <!-- ? CONTAINER -->
+            <div class="testimonials-box-container">
+
+                <!-- * Swiper -->
+                <div class="swiper mySwipertesti">
+                    <div class="swiper-wrapper">
+
+                        <!-- ! Slide 1 -->
+                        <div class="swiper-slide">
+                            <!-- * BOX -->
+                            <div class="testimonials-box">
+                                <!-- todo Profile -->
+                                <div class="t-profile">
+                                    <!-- ? IMG -->
+                                    <div class="t-profile-img">
+                                        <img src="images/t1.jpg" alt="">
+                                    </div>
+                                    <!-- ? TEXT -->
+                                    <div class="t-profile-text">
+                                        <strong>Client Name</strong>
+                                        <span>From China</span>
+
+                                        <!-- ?? RATING -->
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- todo Feedback -->
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A earum facilis modi
+                                    voluptatem
+                                    officiis expedita! Ad recusandae eveniet quo, obcaecati consequatur fuga sequi at
+                                    dolore
+                                    explicabo odit sint aut ipsum.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ! Slide 2 -->
+                        <div class="swiper-slide">
+                            <!-- * BOX -->
+                            <div class="testimonials-box">
+                                <!-- todo Profile -->
+                                <div class="t-profile">
+                                    <!-- ? IMG -->
+                                    <div class="t-profile-img">
+                                        <img src="images/t1.jpg" alt="">
+                                    </div>
+                                    <!-- ? TEXT -->
+                                    <div class="t-profile-text">
+                                        <strong>Client Name</strong>
+                                        <span>From China</span>
+
+                                        <!-- ?? RATING -->
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- todo Feedback -->
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A earum facilis modi
+                                    voluptatem
+                                    officiis expedita! Ad recusandae eveniet quo, obcaecati consequatur fuga sequi at
+                                    dolore
+                                    explicabo odit sint aut ipsum.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ! Slide 3 -->
+                        <div class="swiper-slide">
+                            <!-- * BOX -->
+                            <div class="testimonials-box">
+                                <!-- todo Profile -->
+                                <div class="t-profile">
+                                    <!-- ? IMG -->
+                                    <div class="t-profile-img">
+                                        <img src="images/t1.jpg" alt="">
+                                    </div>
+                                    <!-- ? TEXT -->
+                                    <div class="t-profile-text">
+                                        <strong>Client Name</strong>
+                                        <span>From China</span>
+
+                                        <!-- ?? RATING -->
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- todo Feedback -->
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A earum facilis modi
+                                    voluptatem
+                                    officiis expedita! Ad recusandae eveniet quo, obcaecati consequatur fuga sequi at
+                                    dolore
+                                    explicabo odit sint aut ipsum.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- * TESTIMONIALS -->
+
+    <!-- * SUBSCRIBE -->
+    <section id="subscribe">
+        <h3>Subscribe For New Updates From WeCare</h3>
+
+        <!-- ! Subscribe Box -->
+        <form class="subscribe-box">
+            <input type="email" placeholder="Example@gmail.com">
+            <button>Subscribe</button>
+        </form>
+    </section>
+    <!-- * SUBSCRIBE -->
+
+    <!-- todo FOOTER -->
+    <footer>
+        <!-- ! CONTAINER -->
+        <div class="footer-container">
+            <!-- * Company-box -->
+            <div class="footer-company-box">
+                <!-- ? LOGO -->
+                <a href="#" class="logo"><span>We</span>Care</a>
+
+                <!-- ? DETAILS -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam excepturi laborum mollitia</p>
+
+                <!-- ? SOCIAL-BOX -->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- * Link -->
+            <div class="footer-link-box">
+                <strong>Main Links</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                </ul>
+            </div>
+
+            <!-- * Link -->
+            <div class="footer-link-box">
+                <strong>Main Links</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                </ul>
+            </div>
+
+            <!-- * Link -->
+            <div class="footer-link-box">
+                <strong>Main Links</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ! BOTTOM -->
+        <div class="footer-bottom">
+            <span>Made by Habbaza</span>
+            <span>Copyright 2022 - Habbaza</span>
+        </div>
+    </footer>
+    <!-- todo FOOTER -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        // Services-slider
+        var swiper = new Swiper(".mySwipeservices", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                700: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+
+        var swiper = new Swiper(".mySwiperteam", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                560: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                950: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1250: {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+        var swiper = new Swiper(".mySwipertesti", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
